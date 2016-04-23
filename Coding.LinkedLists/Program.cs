@@ -6,7 +6,9 @@ namespace Coding.LinkedLists
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			Console.WriteLine ("Coding.LinkedLists");
+			
+			RunTests();
 		}
 
 		public void RunTests() {
@@ -16,6 +18,12 @@ namespace Coding.LinkedLists
 			LinkedList<int> list = new LinkedList<int> ();
 
 			list.Add(1);
+			list.Add(2);
+			list.Add(3);
+			list.Add(4);
+			list.Add(5);
+			
+			Console.WriteLine(list.ToString());
 		}
 	}
 }
