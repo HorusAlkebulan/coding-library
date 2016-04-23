@@ -11,7 +11,7 @@ namespace Coding.LinkedLists
 			RunTests();
 		}
 
-		public void RunTests() {
+		public static void RunTests() {
 			// build a list from 1 to 5
 			// print the list
 
