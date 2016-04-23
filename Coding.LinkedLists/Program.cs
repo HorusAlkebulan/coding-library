@@ -16,14 +16,14 @@ namespace Coding.LinkedLists
 			// print the list
 
 			LinkedList<int> list = new LinkedList<int> ();
-
+			
 			list.Add(1);
 			list.Add(2);
 			list.Add(3);
 			list.Add(4);
 			list.Add(5);
 			
-			Console.WriteLine(list.ToString());
+			Console.WriteLine("List Contents: {0}", list.ToString());
 		}
 	}
 }
