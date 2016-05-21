@@ -24,6 +24,10 @@ namespace Coding.LinkedLists
 			list.Add(5);
 			
 			Console.WriteLine("List Contents: {0}", list.ToString());
+
+			// remove the 3rd item
+
+			// reverse the list
 		}
 	}
 }

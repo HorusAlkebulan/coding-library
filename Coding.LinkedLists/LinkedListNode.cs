@@ -12,7 +12,7 @@ namespace Coding.LinkedLists
 		}
 
 		public LinkedListNode<T> Next {get; set;}
-		T Value { get; set; }
+		public T Value { get; set; }
 	}
 }
 

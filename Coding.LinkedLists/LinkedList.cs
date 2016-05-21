@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Coding.LinkedLists
 {
@@ -22,6 +23,18 @@ namespace Coding.LinkedLists
 				Tail.Next = node;
 				Tail = node;
 			}
+		}
+
+		public override string ToString ()
+		{
+			StringBuilder sb = new StringBuilder();
+			var current = Head;
+			while (current != null) {
+				sb.AppendFormat ("{0} ", current.Value);
+				current = current.Next;
+			}
+
+			return sb.ToString().TrimEnd();
 		}
 	}
 }
